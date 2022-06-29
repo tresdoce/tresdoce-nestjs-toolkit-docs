@@ -9,7 +9,7 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://tresdoce.github.io/tresdoce-nestjs-toolkit-docs/',
-  baseUrl: '/',
+  baseUrl: '/tresdoce-nestjs-toolkit-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
