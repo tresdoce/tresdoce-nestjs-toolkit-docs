@@ -128,7 +128,7 @@ class LunrSearchAdapter {
     return this.getHit(doc, null, preview);
   }
   search(input) {
-    return new Promise((resolve, rej) => {
+    return new Promise((resolve, _rej) => {
       const results = this.getLunrResult(input);
       const hits = [];
       results.length > 5 && (results.length = 5);
